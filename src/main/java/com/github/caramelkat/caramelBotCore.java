@@ -25,11 +25,11 @@ public class caramelBotCore {
 
     public static Logger logger = LogManager.getLogger(caramelBotCore.class);
              /*real caramel bot*/
-    public static DiscordApi api = new DiscordApiBuilder().setToken("MzY2NDU0OTExODc5MDg2MDgx.DuQhhQ.wKxG96cEEKPknmdRJsytv0PUqgw").login().join();
+    public static DiscordApi api = new DiscordApiBuilder().setToken("***").login().join();
              /*test server only bot*/
-//    public static DiscordApi api = new DiscordApiBuilder().setToken("NTE4NjQyNzQ4MTI3OTY5Mjgw.DuTvVA.Gms6TzN69g0SMDMb7dKDDRqUwoM").login().join();
+//    public static DiscordApi api = new DiscordApiBuilder().setToken("***").login().join();
             /*Caramel testing*/
-//    public static DiscordApi api = new DiscordApiBuilder().setToken("NTAxMjE5MDQ0Njk5OTMwNjI0.DuQhOQ.2I8jRa1PTrNMNwUNqx3ReE7JPUI").login().join();
+//    public static DiscordApi api = new DiscordApiBuilder().setToken("***").login().join();
 
      public static void main(String[] args) {
         // Enable debugging, if no slf4j logger was found
